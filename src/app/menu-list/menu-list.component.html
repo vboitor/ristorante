@@ -1,0 +1,18 @@
+<h4 align="center">
+  Restaurant Menu
+</h4>
+<div class="row" style="margin-bottom:150px;">
+  <div align=center class="col-lg-3 col-md-4 col-sm-6" *ngFor="let item of menu_items; let i = index;">
+
+    <div class="card">
+      <img class="card-img-top img-responsive" src="{{item.picture}}" alt="Card image">
+      <div class="card-body">
+        <h5 class="card-title">{{item.name}}</h5>
+        <p class="card-text">{{item.description}}</p>
+      </div>
+      <div class="card-footer text-muted">
+        {{item.price}}
+      </div>      
+    </div>
+  </div>
+</div>

@@ -1,0 +1,37 @@
+.info-side{
+    display: flex;
+    justify-content: center;
+} 
+
+.info-side h3{
+    align-self: center;
+    font-size: 16px;
+    font-weight: 600;
+} 
+
+h2.info-title {
+    font-size: 18px;
+    font-weight: 600;
+} 
+
+h4.info-subtitle {
+    font-size: 14px;
+    font-weight: 600;
+} 
+
+p.info-text {
+    font-size: 13px;
+}
+
+p.info-more > a {
+    font-size: 12px;
+} 
+
+p.info-more {
+    margin-bottom: 0;
+} 
+
+hr {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}

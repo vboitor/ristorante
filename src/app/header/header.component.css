@@ -1,0 +1,46 @@
+nav {
+    border-bottom: 1px solid #212529;
+}
+
+nav ul.navbar-nav {
+    margin-top: 0px !important;
+}
+
+nav li.nav-item a.nav-link {
+    font-size: 14px;
+}
+
+nav.navbar {
+    padding: 0;
+    background-color: #2f3ba1;
+}
+
+.navbar-nav .nav-link {
+    color: #afafaf;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.navbar-nav .nav-link.active {
+    color: #fff;
+    background-color: #171d7f;
+}
+
+header {
+    background-color: #7884cd;
+    color: #fffaf0;
+}
+header h1 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-weight: 500;
+}
+
+header .header-info {
+    padding-bottom:40px;
+    font-size: 13px;
+}
+
+a.navbar-brand {
+    padding: 0;
+}

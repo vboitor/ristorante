@@ -1,0 +1,14 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+
+.left-padding-content {
+    padding-left: 10%;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}   
+
+a {
+    color: #226eb3;
+}

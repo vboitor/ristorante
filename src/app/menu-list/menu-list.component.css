@@ -1,0 +1,28 @@
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    width: 90%; 
+    height: 90%;
+    min-height: 290px !important;
+}
+
+.card .card-text, .card a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.card-footer{
+    padding: 6px 6px;
+    font-size: 12px;
+}
+
+.card-title {
+    margin-bottom: 0.35rem;
+}
+
+h5.card-title {
+    font-size: 1.1rem;
+}
